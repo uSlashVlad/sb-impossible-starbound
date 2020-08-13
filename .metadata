@@ -1,6 +1,10 @@
 {
   "author" : "u/vlad",
+  "description" : "Do you feel that Starbound is too easy for you? No problem! With this mod you will hate Starbound, this mod and your life.\n\nWith this mod:\n- Player loses all pixels and drops all items and armor after death in survival mode\n- Player drops items even on missions or space stations\n- Spawn rate of all mobs was increased by 100 times\n- All mobs take only 10% of any damage\n- Player takes greatly enlarged knockback from damage\n- Any fall damage is fatal (even on start mission)\n- Ship's speed was decreased by 15 times (it is so slow)\n- Ship has only 100 max ship fuel (instead of 1000)\n- And finally! All blocks behave like loose silt (they fall down)\n\n[b]Warning![/b] This mod can be imcompatible with any mod that changes spawn rate, game rules, mechanics and etc. I recommend to use this mod in fully vanilla Starbound. I warned you.\n\n[b]My discord: https://discord.gg/mQBjnuH[/b]",
   "friendlyName" : "^shadow;Impossible Starb^#ff0;¤^clear;.^reset,shadow;und",
+  "link" : "steam://url/CommunityFilePage/2195980360",
   "name" : "impossible_starbound",
+  "steamContentId" : "2195980360",
+  "tags" : "NPCs and Creatures|Character Improvements|Mechanics",
   "version" : "1.0"
 }
