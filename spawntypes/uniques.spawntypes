@@ -1,0 +1,1305 @@
+[
+  // unique monsters
+
+  // GARDEN BIOME
+
+  {
+    "name" : "gleap",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 2],
+    "spawnChance" : 8.0,
+    "monsterType" : [
+      [0.99, "gleap"],
+      [1.0, "firegleap"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "nutmidge",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+    "spawnChance" : 2.0,
+    "monsterType" : [
+      [0.99, "nutmidge"],
+      [1.0, "poisonnutmidge"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "poptop",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "exposed",
+      "time" : "all"
+    },
+    "spawnChance" : 4.0,
+    "monsterType" : [
+      [0.99, "poptop"],
+      [1.0, "albinopoptop"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+// SPRING BIOME
+
+  {
+    "name" : "hypnare",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "exposed",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 2],
+    "spawnChance" : 10.0,
+    "monsterType" : [
+      [0.99, "hypnare"],
+      [1.0, "icehypnare"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : false
+    }
+  },
+
+// MUSHROOM BIOME
+
+  {
+    "name" : "sporgus",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "exposed",
+      "time" : "all"
+    },
+    "spawnChance" : 10.0,
+    "monsterType" : [
+      [0.99, "sporgus"],
+      [1.0, "poisonsporgus"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+// OASIS BIOME
+
+  {
+    "name" : "toumingo",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "exposed",
+      "time" : "all"
+    },
+    "groupSize" : [2, 2],
+    "spawnChance" : 10.0,
+    "monsterType" : [
+      [0.99, "toumingo"],
+      [1.0, "firetoumingo"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+// TAR BIOME
+
+  {
+    "name" : "taroni",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "exposed",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 0.3,
+    "monsterType" : [
+      [0.99, "taroni"],
+      [1.0, "firetaroni"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+// BONE BIOME
+
+  {
+    "name" : "oogler",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "exposed",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 5.0,
+    "monsterType" : [
+      [0.99, "oogler"],
+      [1.0, "fireoogler"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+// ALPINE
+
+  {
+    "name" : "ringram",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "exposed",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 8.0,
+    "monsterType" : [
+      [0.99, "ringram"],
+      [1.0, "iceringram"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "capricoat",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "exposed",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 8.0,
+    "monsterType" : [
+      [0.99, "capricoat"],
+      [1.0, "electriccapricoat"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+// BIOLUMIN
+
+  {
+    "name" : "anglure",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "exposed",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 8.0,
+    "monsterType" : [
+      [0.99, "anglure"],
+      [1.0, "electricanglure"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+// SWAMP BIOME
+
+  {
+    "name" : "quagmutt",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "exposed",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 14.0,
+    "monsterType" : [
+      [0.99, "quagmutt"],
+      [1.0, "electricquagmutt"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "pteropod",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 1.0,
+    "monsterType" : [
+      [0.99, "pteropod"],
+      [1.0, "firepteropod"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+// GIANT FLOWER BIOME
+
+  {
+    "name" : "mandraflora",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 6.0,
+    "monsterType" : [
+      [0.99, "mandraflora"],
+      [1.0, "poisonmandraflora"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "bulbop",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [2, 3],
+    "spawnChance" : 10.0,
+    "monsterType" : [
+      [0.99, "bulbop"],
+      [1.0, "poisonbulbop"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+// EYEPATCH
+
+  {
+    "name" : "yokat",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "exposed",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 10.0,
+    "monsterType" : [
+      [0.99, "yokat"],
+      [1.0, "electricyokat"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+// FLESH
+
+  {
+    "name" : "hemogoblin",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 18.0,
+    "monsterType" : [
+      [0.99, "hemogoblin"],
+      [1.0, "electrichemogoblin"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+// STEAMSPRING
+
+  {
+    "name" : "pipkin",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "exposed",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 10.0,
+    "monsterType" : [
+      [0.99, "pipkin"],
+      [1.0, "poisonpipkin"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "lumoth",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 2.0,
+    "monsterType" : [
+      [0.99, "lumoth"],
+      [1.0, "firelumoth"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+// PRISM
+
+  {
+    "name" : "narfin",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "exposed",
+      "time" : "all"
+    },
+    "groupSize" : [1, 3],
+    "spawnChance" : 10.0,
+    "monsterType" : [
+      [0.99, "narfin"],
+      [1.0, "icenarfin"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+// HIVE
+
+  {
+    "name" : "orbide",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 10.0,
+    "monsterType" : [
+      [0.99, "orbide"],
+      [1.0, "iceorbide"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+// NON SUBBIOME
+
+  {
+    "name" : "snaunt",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 8.0,
+    "monsterType" : [
+      [0.99, "snaunt"],
+      [1.0, "electricsnaunt"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "peblit",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 2],
+    "spawnChance" : 8.0,
+    "monsterType" : [
+      [0.99, "peblit"],
+      [1.0, "icepeblit"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "crustoise",
+
+    "spawnParameters" : {
+      "area" : "ceiling",
+      "region" : "enclosed",
+      "time" : "all"
+    },
+    "groupSize" : [1, 2],
+    "spawnChance" : 8.0,
+    "monsterType" : [
+      [0.99, "crustoise"],
+      [1.0, "icecrustoise"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "iguarmor",
+
+    "spawnParameters" : {
+      "area" : "ceiling",
+      "region" : "enclosed",
+      "time" : "all"
+    },
+    "groupSize" : [1, 2],
+    "spawnChance" : 6.0,
+    "monsterType" : [
+      [0.99, "iguarmor"],
+      [1.0, "iceiguarmor"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "bobfae",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 2],
+    "spawnChance" : 6.0,
+    "monsterType" : [
+      [0.99, "bobfae"],
+      [1.0, "poisonbobfae"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "batong",
+
+    "spawnParameters" : {
+      "area" : "ceiling",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 3],
+    "spawnChance" : 4.0,
+    "monsterType" : [
+      [0.99, "batong"],
+      [1.0, "poisonbatong"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "scaveran",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 4.0,
+    "monsterType" : [
+      [0.99, "scaveran"],
+      [1.0, "poisonscaveran"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "crutter",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 8.0,
+    "monsterType" : [
+      [0.99, "crutter"],
+      [1.0, "electriccrutter"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "spookit",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 8.0,
+    "monsterType" : [
+      [0.99, "spookit"],
+      [1.0, "firespookit"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "voltip",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 8.0,
+    "monsterType" : [
+      [0.99, "voltip"],
+      [1.0, "electricvoltip"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "fennix",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "exposed",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 8.0,
+    "monsterType" : [
+      [0.99, "fennix"],
+      [1.0, "icefennix"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "ignome",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 0.5,
+    "monsterType" : [
+      [0.99, "ignome"],
+      [1.0, "electricignome"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "bobot",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 4.0,
+    "monsterType" : [
+      [0.99, "bobot"],
+      [1.0, "firebobot"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "lilodon",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 8.0,
+    "monsterType" : [
+      [0.99, "lilodon"],
+      [1.0, "firelilodon"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "monopus",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 0.5,
+    "monsterType" : [
+      [0.99, "monopus"],
+      [1.0, "firemonopus"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "snaggler",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 8.0,
+    "monsterType" : [
+      [0.99, "snaggler"],
+      [1.0, "icesnaggler"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "snuffish",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 2],
+    "spawnChance" : 8.0,
+    "monsterType" : [
+      [0.99, "snuffish"],
+      [1.0, "poisonsnuffish"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "crabcano",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 8.0,
+    "monsterType" : [
+      [0.99, "crabcano"],
+      [1.0, "icecrabcano"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "smoglin",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 8.0,
+    "monsterType" : [
+      [0.99, "smoglin"],
+      [1.0, "poisonsmoglin"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "paratail",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 2.0,
+    "monsterType" : [
+      [0.99, "paratail"],
+      [1.0, "poisonparatail"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "tintic",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 8.0,
+    "monsterType" : [
+      [0.99, "tintic"],
+      [1.0, "electrictintic"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "wisper",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 2.0,
+    "monsterType" : [
+      [0.99, "wisper"],
+      [1.0, "firewisper"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "skimbus",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 2.0,
+    "monsterType" : [
+      [0.99, "skimbus"],
+      [1.0, "electricskimbus"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "asteroidskimbus",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 1.0,
+    "monsterType" : [
+      [0.99, "skimbus"],
+      [1.0, "electricskimbus"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "pulpin",
+
+    "spawnParameters" : {
+      "area" : "ceiling",
+      "region" : "enclosed",
+      "time" : "all"
+    },
+    "groupSize" : [1, 2],
+    "spawnChance" : 8.0,
+    "monsterType" : [
+      [0.99, "pulpin"],
+      [1.0, "poisonpulpin"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "scandroid",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 2.0,
+    "monsterType" : [
+      [0.99, "scandroid"],
+      [1.0, "cultistscandroid"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "squeem",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 2.0,
+    "monsterType" : [
+      [0.99, "squeem"],
+      [1.0, "firesqueem"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "adultpoptop",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 1.0,
+    "monsterType" : [
+      [0.99, "adultpoptop"],
+      [1.0, "albinoadultpoptop"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "oculob",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 8.0,
+    "monsterType" : [
+      [0.99, "oculob"],
+      [1.0, "fireoculob"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "agrobat",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 2.0,
+    "monsterType" : [
+      [0.99, "agrobat"],
+      [1.0, "iceagrobat"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "petricub",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 8.0,
+    "monsterType" : [
+      [0.99, "petricub"],
+      [1.0, "electricpetricub"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "pyromantle",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 2.0,
+    "monsterType" : [
+      [0.99, "pyromantle"],
+      [1.0, "poisonpyromantle"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "miasmop",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 8.0,
+    "monsterType" : [
+      [0.99, "miasmop"],
+      [1.0, "icemiasmop"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "trictus",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 6.0,
+    "monsterType" : [
+      [0.99, "trictus"],
+      [1.0, "poisontrictus"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  // MOON
+
+  {
+    "name" : "erchiusghost",
+
+    "spawnParameters" : {
+      "area" : "all",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 1.0,
+    "monsterType" : "erchiusghost",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+
+  // TENTACLE BIOME TOP LAYER
+
+  {
+    "name" : "tentaclecrawler",
+
+    "spawnParameters" : {
+      "area" : "ceiling",
+      "region" : "enclosed",
+      "time" : "all"
+    },
+    "spawnChance" : 0.2,
+    "monsterType" : "tentaclecrawler",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "tentaclegnat",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 3],
+    "spawnChance" : 3.0,
+    "monsterType" : "tentaclegnat",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "tentaclebomb",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+    "spawnChance" : 1.0,
+    "monsterType" : "tentaclebomb",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "tentaclespawner",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+    "spawnChance" : 10.0,
+    "monsterType" : "tentaclespawner",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "tentacleghost",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+    "spawnChance" : 3.0,
+    "monsterType" : "tentacleghost",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "tentacleclam",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+    "spawnChance" : 15.0,
+    "monsterType" : "tentacleclam",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+
+  // TENTACLE BIOME UNDERGROUND
+
+  {
+    "name" : "tentaclecrawlerU",
+
+    "spawnParameters" : {
+      "area" : "ceiling",
+      "region" : "enclosed",
+      "time" : "all"
+    },
+    "spawnChance" : 15.0,
+    "monsterType" : "tentaclecrawler",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "tentaclegnatU",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 3],
+    "spawnChance" : 10.0,
+    "monsterType" : "tentaclegnat",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "tentaclebombU",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+    "spawnChance" : 4.0,
+    "monsterType" : "tentaclebomb",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "tentaclespawnerU",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+    "spawnChance" : 4.0,
+    "monsterType" : "tentaclespawner",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "tentacleghostU",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+    "spawnChance" : 6.0,
+    "monsterType" : "tentacleghost",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "tentacleclamU",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+    "spawnChance" : 10.0,
+    "monsterType" : "tentacleclam",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "cosmicintruder",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 1.0,
+    "monsterType" : [
+      [1, "cosmicintruder"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  }
+
+]

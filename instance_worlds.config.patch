@@ -1,0 +1,257 @@
+[
+  {
+    "op": "replace",
+    "path": "/museum/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/protectorate/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/outpost/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/lunarbase/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/floranmission1/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/hylotlmission1/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/avianmission1/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/apexmission1/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/glitchmission1/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/penguinmission1/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/penguinmission2/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/cultistmission1/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/challengerooms/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/ancientvault_poison/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/ancientvault_electric/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/ancientvault_fire/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/ancientvault_ice/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/spaceencounter/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/bountyspaceencounter/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/bountyshipencounter/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/pirateship/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/researchship/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/merchantindustrialship/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/merchantastroship/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/penguinship/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/cultistship/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/playerstation/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/spacestation_electronics/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/spacestation_food/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/spacestation_medical/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/spacestation_weapons/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/spacestation_peacekeeper1/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/spacestation_peacekeeper2/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/spacestation_peacekeeper3/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/spacestation_peacekeeper4/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/spacestation_peacekeeper5/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/mechtestbasic/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/mechtestadvanced/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/techchallenge_doublejump/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/techchallenge_dash/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/techchallenge_morphball/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/arena1/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/arena2/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/arena3/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/testarena/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/tentaclemission/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/cyberspace/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/bountylair1/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/bountylair2/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/bountylair3/disableDeathDrops",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/bountylair4/disableDeathDrops",
+    "value": false
+  }
+]
